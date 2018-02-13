@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "description": "Front/back-end developer",
+  "version": "1.1.0",
+  "private": true,
+  "author": "Vilmar Almeida",
+  "homepage": "https://v1lmar.github.io",
+  "repository": "https://github.com/v1lmar/v1lmar.github.io",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-uglify": "~2.2.0",
+    "grunt-contrib-cssmin": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-shell": "~2.1.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}
