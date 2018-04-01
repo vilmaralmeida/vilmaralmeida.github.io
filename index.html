@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Vilmar Almeida &bull; Front/Back-end Developer</title>
+	<title>Vilmar Almeida &bull; Front-end Developer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Vilmar Almeida &bull; Front/Back-end Developer in Cuiaba, Brazil">
+	<meta name="description" content="Vilmar Almeida &bull; Front-end Developer in Cuiaba, Brazil">
 	<meta name="keywords" content="full-stack developer, front-end developer, back-end developer, web developer, programmer, freelancer, ruby on rails, codeigniter">
 	<meta name="author" content="Vilmar Almeida">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
@@ -29,7 +29,7 @@
 			<div class="intro">
 				<span class="intro__avatar"></span>
 				<h1 class="intro__title">Hey there, welcome!</h1>
-				<p class="intro__description">I'm Vilmar Almeida, front-end developer based in Cuiaba, Brazil.<br> I love creating user interfaces but i also likes back-end stuff. The following are some tools i have already used.</p>
+				<p class="intro__description">I'm Vilmar Almeida, front-end developer based in Cuiaba, Brazil.<br> I love creating user interfaces but i also like back-end stuff. The following are some tools i've used.</p>
 				<ul class="intro__skills">
 					<li class="intro__icon tooltip" data-tooltip="Rails">
 						<i class="devicon-rails-plain"></i>
@@ -78,14 +78,14 @@
 					</li>
 				</ul>
 
-				<p class="intro__description">And now what i've done, if you think it's cool, contact me through the links at the top of the site. Thanks!</p>
+				<p class="intro__description">And now a little of my work, please contact me through the links at the top of the site. Thanks!</p>
 			</div>
 
 			<!-- Content > Work -->
 			<div id="cases" class="row cases">
 				<script id="cases-template" type="text/x-handlebars-template">
 					{{#each this}}
-						<div class="third-column">
+						<div class="one-column-xs half-column-sm third-column-md">
 							{{#covers}}
 								<div class="cases__item">
 									<img src="{{404}}" class="cases__cover">
@@ -138,14 +138,13 @@
 		});
 
 		$(function() {
-			// Simple Slider
 			setTimeout(function() {
 				require(['magnificPopup'], function(magnificPopup) {
 					$('.cases__caption').magnificPopup({
 						type:'image'
 					});
 				});
-			}, 600);
+			}, 1000);
 		});
 	</script>
 </body>

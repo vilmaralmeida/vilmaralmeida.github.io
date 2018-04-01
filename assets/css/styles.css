@@ -42,16 +42,12 @@ a:focus, a:hover { color: #141306; }
   margin: 0 -15px;
 }
 
-.half-column {
-  width: 50%;
-}
-
-.third-column {
-  width: 33.3%;
-}
-
-.half-column, .third-column {
+.one-column-xs, .third-column-md {
   padding: 0 15px;
+}
+
+.one-column-xs {
+  width: 100%;
 }
 
 .tooltip {
@@ -150,6 +146,7 @@ a:focus, a:hover { color: #141306; }
   position: relative;
   overflow: hidden;
   float: left;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -203,10 +200,18 @@ a:focus, a:hover { color: #141306; }
 
 /* ========== Responsive ========== */
 
-@media (min-width: 768px) {
-  
+@media (min-width: 480px) {
+  .half-column-sm {
+    width: 50%;
+  }
 }
 
-@media (min-width: 992px) {
-  
+@media (min-width: 768px) {
+  .third-column-md {
+    width: 33.3%;
+  }
+
+  .content .cases .cases__item {
+    margin-bottom: 0;
+  }
 }
