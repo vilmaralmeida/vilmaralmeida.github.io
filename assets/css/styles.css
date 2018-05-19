@@ -1,5 +1,12 @@
 @charset 'UTF-8';
 
+/* ========== Webfonts ========== */
+
+@font-face {
+  font-family: Qontra;
+  src: url('../fonts/Qontra.otf') format('opentype');
+}
+
 /* ========== General & Misc ========== */
 
 *, ::before, ::after {
