@@ -150,10 +150,6 @@ a:focus, a:hover { color: #6699ff; }
 	text-align: center;
 }
 
-.footer .footer__github {
-	margin-bottom: 15px;
-}
-
 /* ========== Media Queries ========== */
 
 @media (min-width: 992px) {
