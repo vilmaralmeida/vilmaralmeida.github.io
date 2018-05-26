@@ -59,7 +59,7 @@ a:focus, a:hover { color: #6699ff; }
 
 .header .header__brand {
 	margin: 0;
-	font-size: 20px;
+	font-size: 32px;
 }
 
 .header .header__brand a {
@@ -73,9 +73,10 @@ a:focus, a:hover { color: #6699ff; }
 .header .header__brand span {
 	display: inline-block;
 	margin-left: -10px;
-	width: 22px;
-	height: 22px;
+	width: 34px;
+	height: 34px;
 	background: url('../img/brand.png');
+	background-repeat: no-repeat;
 	background-size: contain;
 	vertical-align: top;
 }
@@ -148,6 +149,10 @@ a:focus, a:hover { color: #6699ff; }
 .footer {
 	padding: 30px 0;
 	text-align: center;
+}
+
+.footer .footer__donate {
+	margin-bottom: 15px;
 }
 
 /* ========== Media Queries ========== */
